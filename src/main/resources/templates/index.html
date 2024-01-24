@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Scents</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="fragments/styles.css">
+</head>
+<body>
+
+<!-- modal -->
+
+<div class="modal" id="modal">
+
+    <div class="container">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="image">
+            <img src="fragments/laura-chouette-4sKdeIMiFEI-unsplash.jpg" alt="">
+        </div>
+        <div class="content">
+            <h2>subscribe newsletter</h2>
+            <p>stay updated with the latest trends and exclusive offers on our exquisite scents collection</p>
+            <form action="">
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<!-- end -->
+
+<!-- header section starts -->
+
+<header>
+
+    <div class="header-top">
+
+        <div class="social">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="alert">
+            <p>
+                <b>free shipping</b> this week order over - 30k
+            </p>
+        </div>
+
+        <div class="actions">
+            <select name="language">
+                <option value="en-US">English</option>
+                <option value="en-ES">Espanish</option>
+                <option value="fr">Francias</option>
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="header-main">
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"> <i class="fas fa-gem"></i>FragranceFlair</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">product</a>
+            <a href="#services">services</a>
+            <a href="#blogs">blogs</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <button class="action-btn">
+                <a href="#" class="fas fa-user"></a>
+            </button>
+            <button class="action-btn">
+                <a href="#" class="fas fa-heart"></a>
+                <span class="count">0</span>
+            </button>
+            <button class="action-btn">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <span class="count">0</span>
+            </button>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Exclusive Scents</h3>
+        <a href="#" class="btn" onclick="send()"> shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+    <h1 class="heading">about <span> us</span></h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="fragments/laura-chouette-jmACQEf7T2A-unsplash.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>elegence redefined, passion perfected</h3>
+            <img src="fragments/quote.svg" alt="" class="quote">
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- product section starts -->
+
+<section class="products" id="products">
+
+    <h1 class="heading">latest <span> products</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/rosy-h-nguyen-5HrlEGTsaB4-unsplash.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">260k</div>
+                    <div class="cut">348k</div>
+                    <div class="offer">20% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>180 reviews</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/Purple%20Chanel%205%20aesthetic.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">960k</div>
+                    <div class="cut">388k</div>
+                    <div class="offer">70% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>880 reviews</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/Dolce.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">160k</div>
+                    <div class="cut">48k</div>
+                    <div class="offer">10% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>80 reviews</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/zara.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">160k</div>
+                    <div class="cut">48k</div>
+                    <div class="offer">10% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>80 reviews</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/joy.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">160k</div>
+                    <div class="cut">48k</div>
+                    <div class="offer">10% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>80 reviews</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/dior.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">160k</div>
+                    <div class="cut">48k</div>
+                    <div class="offer">10% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>80 reviews</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/versace.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">160k</div>
+                    <div class="cut">48k</div>
+                    <div class="offer">10% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>80 reviews</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="fragments/red.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-bag"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>gold ring</h3>
+                <div class="price">
+                    <div class="amount">60k</div>
+                    <div class="cut">48k</div>
+                    <div class="offer">5% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>10 reviews</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- product section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">our <span>services</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-ship"></i>
+            <h3>worldwide delivery</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>best online support</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-reply-all"></i>
+            <h3>return policy</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-money-check"></i>
+            <h3>secure payment</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <h3>jewellery care tips</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gem"></i>
+            <h3>custom jewellery designs</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- offer section starts -->
+
+<section class="offer">
+
+    <div class="row">
+
+        <div class="image">
+            <img src="fragments/pink%20smoke.jpg" alt="" height="358">
+        </div>
+
+        <div class="image">
+            <img src="fragments/marina.jpg" alt="" height="445">
+        </div>
+
+        <div class="content">
+            <span>special offer</span>
+            <h3>new Perfume collection</h3>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quas praesentium inventore eum cumque, harum veniam tempore aperiam, dolor molestiae dicta debitis sapiente. Tempore, deleniti. Exercitationem commodi laboriosam blanditiis impedit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quas praesentium inventore eum cumque</p>
+            <a href="#" class="btn"> only 44000k</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- offer section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +234-9023-9495-00</a>
+            <a href="#"><i class="fas fa-phone"></i> +234-8108-3413-80</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <input type="email" placeholder="Your Email Address" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+
+    </div>
+</section>
+
+<script>
+
+    function send(){
+        window.location.href= "http://localhost:8080/PerfumeHomepage";
+    }
+</script>
+</body>
+</html>

@@ -60,6 +60,7 @@ public class PerfumeController {
             redirectAttributes.addFlashAttribute("message", "Perfume Record updated successfully");
         } catch (Exception e) {
             redirectAttributes.addFlashAttribute("message", "Error updating perfume: " + e.getMessage());
+            redirectAttributes.addFlashAttribute("color", "success");
         }
         return "redirect:/PerfumeHomepage";
     }
